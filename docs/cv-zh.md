@@ -1,4 +1,5 @@
 ---
+title: 袁小迪
 layout: page
 permalink: "/cv-zh/"
 ---
