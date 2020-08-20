@@ -45,7 +45,7 @@ permalink: "/cv-zh/"
 ## 兴趣
 
 - 我的算法竞赛博客：[胡小兔的OI博客](https://www.cnblogs.com/rabbithu/)。
-- 业余绘画。我画的微信表情包：[黄二啾2](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/MeGiHwZbx7wdLH6zbQAcQ9IbDqkAaStZdaumNKQCOUQUEfx4asRlSESVhDutTNcZU=)、[黄二啾](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/PdYjf5xXMwZCpTiSb5PEYZqIHL5uH5NWGM7johDp8HGN+GktQK4ZNkYswLEhcK5+8=)、[胡小兔](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/OUqfqLDvx/sAOe1p+LRnA9XoTqfTvrW/uiolvZcWuShFPVGzMNz8Cy5KjPkvXE0as=)。
+- 业余绘画。给自己的文章画了插图：[2020清华招生看点 \| 袁小迪：漫话智班初体验](https://mp.weixin.qq.com/s/sRNBXkYom5Y9GYBqNEZlsQ)。我画的微信表情包：[黄二啾2](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/MeGiHwZbx7wdLH6zbQAcQ9IbDqkAaStZdaumNKQCOUQUEfx4asRlSESVhDutTNcZU=)、[黄二啾](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/PdYjf5xXMwZCpTiSb5PEYZqIHL5uH5NWGM7johDp8HGN+GktQK4ZNkYswLEhcK5+8=)、[胡小兔](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/OUqfqLDvx/sAOe1p+LRnA9XoTqfTvrW/uiolvZcWuShFPVGzMNz8Cy5KjPkvXE0as=)。
 
 
 
