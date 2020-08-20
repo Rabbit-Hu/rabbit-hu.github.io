@@ -1,5 +1,6 @@
 ---
 layout: default
+path: "/cv-zh"
 ---
 
 # 袁小迪
