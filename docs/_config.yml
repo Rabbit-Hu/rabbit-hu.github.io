@@ -1,5 +1,4 @@
 title: "rabbit-hu.github.io"
-url: "https://rabbit-hu.github.io/"
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
@@ -16,10 +15,9 @@ sass:
     style: compressed
     sass_dir: _sass
 
-# nav:
-#  - name: "About"
-#    link: "/researcher/"
-#  - name: "Resume"
-#    link: "resume.pdf"
-#  - name: "Contact"
-#    link: "contact"
+nav:
+ - name: "首页"
+   link: "/"
+ - name: "中文简历"
+   link: "/cv-zh/"
+

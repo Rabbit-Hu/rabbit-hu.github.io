@@ -24,7 +24,7 @@ permalink: "/cv-zh/"
 
 ## 获奖
 
-- 2018，全国青少年信息学奥林匹克竞赛（NOI），**银牌**
+- 2018，全国青少年信息学奥林匹克竞赛（NOI），**银牌**，[获奖名单](http://www.noi.cn/RequireFile.do?fid=gmhqLRqj&attach=n)
 
 ## 项目
 
@@ -44,7 +44,7 @@ permalink: "/cv-zh/"
 ## 兴趣
 
 - 我的算法竞赛博客：[胡小兔的OI博客](https://www.cnblogs.com/rabbithu/)。
-- 业余绘画。我画的微信表情包：[黄二啾2](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/MeGiHwZbx7wdLH6zbQAcQ9IbDqkAaStZdaumNKQCOUQUEfx4asRlSESVhDutTNcZU=)、[黄二啾](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/PdYjf5xXMwZCpTiSb5PEYZqIHL5uH5NWGM7johDp8HGN+GktQK4ZNkYswLEhcK5+8=)、[胡小兔](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/readtemplate?t=stikerDetail/index&stikerid=stiker_1565178518e09a9fd103c94d4c)。
+- 业余绘画。我画的微信表情包：[黄二啾2](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/MeGiHwZbx7wdLH6zbQAcQ9IbDqkAaStZdaumNKQCOUQUEfx4asRlSESVhDutTNcZU=)、[黄二啾](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/PdYjf5xXMwZCpTiSb5PEYZqIHL5uH5NWGM7johDp8HGN+GktQK4ZNkYswLEhcK5+8=)、[胡小兔](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/OUqfqLDvx/sAOe1p+LRnA9XoTqfTvrW/uiolvZcWuShFPVGzMNz8Cy5KjPkvXE0as=)。
 
 
 
