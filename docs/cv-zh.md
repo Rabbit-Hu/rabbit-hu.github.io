@@ -4,7 +4,7 @@ layout: default
 
 # 袁小迪
 
-<img class="profile-picture" src="profile_pic.jpg">
+<img class="profile-picture" src="/profile_pic.jpg">
 
 清华大学交叉信息研究院，本科生
 
