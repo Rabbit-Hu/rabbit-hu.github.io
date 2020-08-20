@@ -25,6 +25,7 @@ permalink: "/cv-zh/"
 ## 获奖
 
 - 2018，全国青少年信息学奥林匹克竞赛（NOI），**银牌**，[获奖名单](http://www.noi.cn/RequireFile.do?fid=gmhqLRqj&attach=n)
+- 2019，大连市高考第一名
 
 ## 项目
 
