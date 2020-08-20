@@ -4,6 +4,8 @@ layout: default
 
 # 袁小迪
 
+<img class="profile-picture" src="profile_pic.jpg">
+
 清华大学交叉信息研究院，本科生
 
 邮箱：[yuanxd19@mails.tsinghua.edu.cn](mailto:yuanxd19@mails.tsinghua.edu.cn)
