@@ -10,7 +10,7 @@ permalink: "/cv-en/"
 
 Bachelor student, Institute for Interdisciplinary Information Sciences, Tsinghua University, China
 
-Email：[yuanxd19@mails.tsinghua.edu.cn](mailto:yuanxd19@mails.tsinghua.edu.cn)
+Email：[yuanxd19@mails.tsinghua.edu.cn](mailto:yuanxd19@mails.tsinghua.edu.cn), [yuanxiaodidl@gmail.com](mailto:yuanxiaodidl@gmail.com)
 
 ## Education
 
