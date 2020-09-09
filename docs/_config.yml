@@ -20,4 +20,6 @@ nav:
    link: "/"
  - name: "中文简历"
    link: "/cv-zh/"
+ - name: "Resume in English"
+   link: "/cv-en/"
 
