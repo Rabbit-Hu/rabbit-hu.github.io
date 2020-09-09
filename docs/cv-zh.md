@@ -38,7 +38,7 @@ permalink: "/cv-zh/"
 ## 技能
 
 - 熟悉C, C++。
-- 了解Python, LaTex, HTML, CSS, Javascript。
+- 了解Python, LaTeX, HTML, CSS, Javascript。
 - 略微了解Pytorch，尚在学习。
 - 英语水平：四级685分，托福103分（高一）。有较强的英文阅读能力。
 
