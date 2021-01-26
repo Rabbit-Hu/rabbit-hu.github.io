@@ -15,7 +15,7 @@ Email：[yuanxd19@mails.tsinghua.edu.cn](mailto:yuanxd19@mails.tsinghua.edu.cn),
 ## Education
 
 - **Undergraduate：2019-2023 (expected)**, Class for Artificial Intelligence, Institute for Interdisciplinary Information Sciences, Tsinghua University, China
-    - **GPA 4.0/4**
+    - **GPA 3.94/4**
 
 ## Experiences
 
