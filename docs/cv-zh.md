@@ -40,3 +40,6 @@ permalink: "/cv-zh/"
 - 了解C++, LaTeX, HTML, CSS, Javascript。
 - 英语水平：六级658分，四级685分，托福103分（高一）。有较强的英文阅读能力。
 
+## 兴趣爱好
+
+我的博客：[胡小兔的OI博客](https://www.cnblogs.com/rabbithu/)。
