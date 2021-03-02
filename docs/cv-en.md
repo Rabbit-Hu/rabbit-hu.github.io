@@ -32,19 +32,16 @@ Email：[yuanxd19@mails.tsinghua.edu.cn](mailto:yuanxd19@mails.tsinghua.edu.cn),
 ### Amateur Projects
 
 - Tsinghua Nonogram, a webpage game on cellphone, implemented with JavaScript: [Code](https://github.com/Rabbit-Hu/nonogram)
-- A scipt for downloading [XuetangX](https://next.xuetangx.com/) MOOC captions: [Code](https://github.com/Rabbit-Hu/xuetangx-caption-crawler)
 - A helper for reciting Japanese words: [Code](https://github.com/Rabbit-Hu/vocab-helper)
 
 ## Skills
 
-- Familiar with C, C++.
-- Know Python, LaTeX, HTML, CSS, Javascript.
-- English: CET-4 685, TOEFL 103 (Senior One).
+- Familiar with C, Python.
+- Know C++, LaTeX, HTML, CSS, Javascript.
+- English: CET-6 658, CET-4 685, TOEFL 103 (Senior One).
 
 ## Hobbies
 
 - My blog (Chinese): [胡小兔的OI博客](https://www.cnblogs.com/rabbithu/)。
-- Painting amateur. Illustrations for my article: [2020清华招生看点 \| 袁小迪：漫话智班初体验 (Chinese)](https://mp.weixin.qq.com/s/sRNBXkYom5Y9GYBqNEZlsQ)。WeChat stickers I designed：[黄二啾2](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/MeGiHwZbx7wdLH6zbQAcQ9IbDqkAaStZdaumNKQCOUQUEfx4asRlSESVhDutTNcZU=)、[黄二啾](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/PdYjf5xXMwZCpTiSb5PEYZqIHL5uH5NWGM7johDp8HGN+GktQK4ZNkYswLEhcK5+8=)、[胡小兔](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/OUqfqLDvx/sAOe1p+LRnA9XoTqfTvrW/uiolvZcWuShFPVGzMNz8Cy5KjPkvXE0as=)。
-
 
 
