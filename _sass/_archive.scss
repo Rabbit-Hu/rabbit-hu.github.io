@@ -57,7 +57,7 @@
   }
 }
 
-.archive__item-excerpt {
+.archive__item-authors {
   margin-top: 0;
   font-size: $type-size-6;
 
@@ -66,12 +66,41 @@
   }
 }
 
+.archive__item-paperinfo {
+  margin-top: 0;
+  font-size: $type-size-5;
+
+  & + p {
+    text-indent: 0;
+  }
+}
+
+.archive__item-excerpt {
+  margin-top: 0;
+  font-size: $type-size-5;
+
+  color: mix(#fff, $gray, 25%);
+
+  & + p {
+    text-indent: 0;
+  }
+}
+
 .archive__item-teaser {
+  margin-top: 2.5em;
   border-radius: $border-radius;
   overflow: hidden;
-  img {
-    width: 100%;
-  }
+  width: 20%;
+  float: left;
+}
+
+.archive__item-text {
+  margin-top: 0em;
+  padding-left: 1em;
+  border-radius: $border-radius;
+  overflow: hidden;
+  width: 70%;
+  float: left;
 }
 
 .archive__item:hover {
@@ -79,9 +108,9 @@
     box-shadow: 0 0 10px rgba(#000, 0.25);
   }
 
-  .archive__item-title {
-    text-decoration: underline;
-  }
+  // .archive__item-title {
+  //   text-decoration: underline;
+  // }
 }
 
 
