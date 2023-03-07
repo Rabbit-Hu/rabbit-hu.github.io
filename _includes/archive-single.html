@@ -26,7 +26,7 @@
       </div>
     {% endif %}
 
-    <div class="archive__item-text">
+    {% if teaser %}<div class="archive__item-text">{% endif %}
       <h2 class="archive__item-title" itemprop="headline">
         {% if post.collection == 'publications' %}
           {{ title }}
@@ -72,7 +72,7 @@
       <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
       {% endif %}
 
-    </div>
+    {% if teaser %}</div>{% endif %}
 
   </article>
 </div>
