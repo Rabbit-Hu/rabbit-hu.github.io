@@ -16,7 +16,7 @@ Undergraduate student, Institute for Interdisciplinary Information Sciences, Tsi
 
 ## Education
 
-- **Undergraduate：2019-2023 (expected)**, Yao Class (founded by Andrew Yao), [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/en/), Tsinghua University, China
+- **Undergraduate: 2019-2023 (expected)**, Yao Class (founded by Andrew Yao), [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/en/), Tsinghua University, China
     - **GPA 3.97/4** (Rank 3/32)
 
 ## Experiences

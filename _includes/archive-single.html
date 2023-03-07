@@ -39,7 +39,7 @@
 
       {% if post.collection == 'publications' %}
       <p class="archive__item-authors">
-        <i>{{ post.authors | markdownify }}</i>
+        <i>{{ post.authors | markdownify | remove: '<p>' | remove: '</p>' }}</i>
       </p>
       <p class="archive__item-paperinfo">
         {{ post.venue }}

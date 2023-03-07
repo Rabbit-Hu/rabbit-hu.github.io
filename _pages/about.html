@@ -1,0 +1,24 @@
+---
+permalink: /
+title: "About Me"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+<p>
+  I am Xiaodi Yuan, a senior undergraduate student at <a href="https://iiis.tsinghua.edu.cn/en/">IIIS</a>, 
+  <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>. 
+</p>
+
+<p>My research interest is computer graphics and physics-based simulation. </p>
+
+<p>This is my home page but it's currently under construction. </p>
+
+<h1 class="page__title">Publications</h1>
+
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
