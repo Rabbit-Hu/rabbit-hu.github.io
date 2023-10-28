@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Xiaodi Yuan's Homepage"
 title_separator          : "-"
 name                     : &name "Xiaodi Yuan"
-description              : &description "Senior undergrad at Tsinghua"
+description              : &description "PhD student @ UCSD"
 url                      : https://rabbit-hu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rabbit-hu/rabbit-hu.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Xiaodi Yuan"
   avatar           : "xiaodi-profile.jpg"
-  bio              : "Senior undergrad at Tsinghua"
+  bio              : "PhD student @ UCSD"
   location         : # "Location"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
