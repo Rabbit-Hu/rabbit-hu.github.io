@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Xiaodi Yuan's Homepage"
+title                    : "Ada Yuan's Homepage"
 title_separator          : "-"
-name                     : &name "Xiaodi Yuan"
+name                     : &name "Xiaodi \"Ada\" Yuan"
 description              : &description "PhD student @ UCSD"
 url                      : https://rabbit-hu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Xiaodi Yuan"
+  name             : "Xiaodi \"Ada\" Yuan"
   avatar           : "xiaodi-profile.jpg"
   bio              : "PhD student @ UCSD"
   location         : # "Location"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
-  email            : "yuanxiaodidl@gmail.com"
+  email            : "x9yuan@ucsd.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
