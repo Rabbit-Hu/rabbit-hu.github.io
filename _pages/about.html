@@ -1,28 +1,39 @@
 ---
 permalink: /
-title: 
+title:
 excerpt: "About me"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+redirect_from:
+- /about/
+- /about.html
 ---
 
 <h1 class="page__title">About Me</h1>
 
 <p>
-  I am a first-year PhD student at UC San Diego, advised by Prof. <a href="https://cseweb.ucsd.edu/~haosu/">Hao Su</a>. 
-  I received my B.Eng. degree from <a href="https://iiis.tsinghua.edu.cn/en/">IIIS</a>, Tsinghua University, where I worked with 
-  Prof. <a href="https://ericyi.github.io/">Li Yi</a> on 3D shape reconstruction, 
+  My name is <b>Xiaodi Yuan</b>, and I also go by <b>Ada</b>. <br />
+<details>
+  <summary><small style="color:gray">More about those names?</small></summary>
+  <span style="color:gray">
+    <p><b>Chinese name.</b> My name is 袁 (Yuan) 小迪 (Xiaodi) in Chinese. Xiaodi is pronounced like "see-Aw-dee", and Yuan is pronounced like "yoo-An". </p>
+    <p><b>Why Ada?</b> I chose this name because (a) I know Xiaodi is hard to pronounce (and it's okay); (b) Ada is lexicographically small; (c) <code>"ada"</code> is a subsequence of <code>"xiaodi yuan"</code>; (d) actually, I named myself after world's first computer programmer, <a href="https://en.wikipedia.org/wiki/Ada_Lovelace">Ada Lovelace</a>.</p>
+  </span>
+</details>
+</p>
+<p>
+  I am a first-year PhD student at UC San Diego, advised by Prof. <a href="https://cseweb.ucsd.edu/~haosu/">Hao Su</a>.
+  I received my B.Eng. degree from <a href="https://iiis.tsinghua.edu.cn/en/">IIIS</a>, Tsinghua University, where I
+  worked with
+  Prof. <a href="https://ericyi.github.io/">Li Yi</a> on 3D shape reconstruction,
   and Prof. <a href="https://people.iiis.tsinghua.edu.cn/~taodu/">Tao Du</a> on physics-based simulation.
 </p>
 
-<p>My research interests are computer graphics and physics-based simulation. </p>
+<p>My research interests are computer graphics and physics-based simulation. I am working on building fast and realistic simulation environments for embodied AI.</p>
 
-<hr/>
+<hr />
 
 <h1 class="page__title">Publications</h1>
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+{% include archive-single.html %}
 {% endfor %}

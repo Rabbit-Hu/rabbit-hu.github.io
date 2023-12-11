@@ -86,7 +86,7 @@ author:
   location         : # "Location"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : # "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=i-QiNPIAAAAJ"
   email            : "x9yuan@ucsd.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -98,7 +98,7 @@ author:
   foursquare       :
   github           : "rabbit-hu"
   google_plus      :
-  keybase          :
+  keybase          : 
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
@@ -115,6 +115,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  chineseblog      : "https://www.cnblogs.com/RabbitHu/"
 
 
 # Reading Files
