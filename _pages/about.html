@@ -37,10 +37,18 @@ redirect_from:
   <img src="/images/google-street-view.jpg" alt="Google Street View" style="width:100%;max-width:400px;" />
 </p> -->
 
-<hr />
+<hr class="page__hr"/>
 
 <h1 class="page__title">Publications</h1>
 
 {% for post in site.publications reversed %}
+{% include archive-single.html %}
+{% endfor %}
+
+<hr class="page__hr"/>
+
+<h1 class="page__title">Projects</h1>
+
+{% for post in site.projects reversed %}
 {% include archive-single.html %}
 {% endfor %}

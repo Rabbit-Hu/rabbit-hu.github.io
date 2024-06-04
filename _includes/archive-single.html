@@ -28,7 +28,7 @@
 
     {% if teaser %}<div class="archive__item-text">{% endif %}
       <h2 class="archive__item-title" itemprop="headline">
-        {% if post.collection == 'publications' %}
+        {% if post.collection == 'publications' or post.collection == 'projects' %}
           {{ title }}
         {% elsif post.link %}
           <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
@@ -37,7 +37,7 @@
         {% endif %}
       </h2>
 
-      {% if post.collection == 'publications' %}
+      {% if post.collection == 'publications' or post.collection == 'projects' %}
       <p class="archive__item-authors">
         <i>{{ post.authors | markdownify | remove: '<p>' | remove: '</p>' }}</i>
       </p>
@@ -59,7 +59,7 @@
         <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
 
-      {% if post.collection == 'publications' %}
+      {% if post.collection == 'publications' or post.collection == 'projects' %}
       {% elsif post.collection == 'teaching' %}
         <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
       {% elsif post.date %}
