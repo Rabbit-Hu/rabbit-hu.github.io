@@ -13,6 +13,6 @@ redirect_from:
 
 {% include base_path %}
 
-[Click here to download my latest CV](/files/CV-09-05-24.pdf).
+[Click here to download my latest CV](/files/CV-08-17-25.pdf).
 
-Last updated: Apr 22 2024. 
+Last updated: Aug 17 2025. 
