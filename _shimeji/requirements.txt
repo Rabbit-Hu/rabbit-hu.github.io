@@ -1,0 +1,6 @@
+numpy==2.2.6
+scipy==1.15.3
+pillow==12.3.0
+opencv-python-headless==5.0.0.93
+scikit-image==0.25.2
+rembg[cpu]==2.0.69
