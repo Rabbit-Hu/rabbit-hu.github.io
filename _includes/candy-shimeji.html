@@ -1,0 +1,74 @@
+{% include base_path %}
+<!-- Candy, a little shimeji in the bottom-right corner whose eyes follow the pointer.
+     candy.webp is the cat (2x of the display size); candy-eyes.webp holds the eye region for each gaze
+     (looking at you, then n, ne, e, se, s, sw, w, nw), side by side. -->
+<div id="candy-shimeji" class="candy-shimeji">
+  <div class="candy-shimeji__cat" aria-hidden="true">
+    <img src="{{ base_path }}/images/shimeji/candy.webp" width="180" height="189" alt="" decoding="async">
+    <div class="candy-shimeji__eyes"></div>
+  </div>
+  <button type="button" class="candy-shimeji__close" aria-label="Hide the cat" title="Hide the cat">&times;</button>
+</div>
+<style>
+  .candy-shimeji { position: fixed; right: 8px; bottom: 0; z-index: 20; width: 180px; pointer-events: none; }
+  .candy-shimeji__cat { position: relative; }
+  .candy-shimeji__cat img { display: block; width: 100%; height: auto; }
+  .candy-shimeji__eyes { position: absolute; left: 65%; top: 15.3439%; width: 24.4444%; height: 10.582%;
+    background: url("{{ base_path }}/images/shimeji/candy-eyes.webp") 0 0 / 900% 100% no-repeat; }
+  .candy-shimeji__close { position: absolute; left: 6%; top: 6%; width: 22px; height: 22px; padding: 0;
+    border: 0; border-radius: 50%; background: rgba(0, 0, 0, .35); color: #fff; font: 16px/22px sans-serif;
+    text-align: center; cursor: pointer; opacity: .55; pointer-events: auto; transition: opacity .15s; }
+  .candy-shimeji__close:hover, .candy-shimeji__close:focus-visible { opacity: 1; }
+  @media (max-width: 600px) { .candy-shimeji { width: 115px; } .candy-shimeji__close { left: 0; top: 0; } }
+  @media print { .candy-shimeji { display: none; } }
+</style>
+<script>
+  /* Block comments only: the compress layout joins lines in production. */
+  (function () {
+    var KEY = "candy-shimeji-hidden";
+    var root = document.getElementById("candy-shimeji");
+    try {
+      if (sessionStorage.getItem(KEY)) { root.parentNode.removeChild(root); return; }
+    } catch (e) {}
+
+    var cat = root.querySelector(".candy-shimeji__cat");
+    var eyes = root.querySelector(".candy-shimeji__eyes");
+    var ORDER = ["c", "n", "ne", "e", "se", "s", "sw", "w", "nw"];   /* sprite order */
+    var SECTORS = ["e", "se", "s", "sw", "w", "nw", "n", "ne"];     /* 45-degree sectors from atan2 */
+    var ANCHOR = [0.7706, 0.2041];   /* between the eyes, as a fraction of the image */
+    var DEAD_ZONE = 0.18;            /* pointer this close (x image width) means she looks at you */
+    var gaze = "c", target = null, queued = false;
+
+    function update() {
+      queued = false;
+      var r = cat.getBoundingClientRect();
+      var dx = target[0] - (r.left + ANCHOR[0] * r.width);
+      var dy = target[1] - (r.top + ANCHOR[1] * r.height);
+      var g = Math.sqrt(dx * dx + dy * dy) < DEAD_ZONE * r.width ? "c"
+        : SECTORS[(Math.round(Math.atan2(dy, dx) / (Math.PI / 4)) + 8) % 8];
+      if (g !== gaze) {
+        gaze = g;
+        eyes.style.backgroundPosition = ORDER.indexOf(g) * 12.5 + "% 0";
+      }
+    }
+    function lookAt(x, y) {
+      target = [x, y];
+      if (!queued) { queued = true; requestAnimationFrame(update); }
+    }
+
+    if (window.PointerEvent) {
+      /* mouse and pen: follow the pointer; touch: the point where the latest touch started */
+      addEventListener("pointermove", function (e) { if (e.pointerType !== "touch") lookAt(e.clientX, e.clientY); }, { passive: true });
+      addEventListener("pointerdown", function (e) { lookAt(e.clientX, e.clientY); }, { passive: true });
+    } else {
+      addEventListener("mousemove", function (e) { lookAt(e.clientX, e.clientY); }, { passive: true });
+      addEventListener("touchstart", function (e) { lookAt(e.touches[0].clientX, e.touches[0].clientY); }, { passive: true });
+    }
+    addEventListener("resize", function () { if (target) lookAt(target[0], target[1]); });
+
+    root.querySelector(".candy-shimeji__close").addEventListener("click", function () {
+      root.parentNode.removeChild(root);
+      try { sessionStorage.setItem(KEY, "1"); } catch (e) {}
+    });
+  })();
+</script>
